@@ -1,0 +1,117 @@
+nav {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  margin: auto;
+  border: double white 5px;
+  border-radius: 20px;
+  padding: 10px;
+}
+nav a {
+  width: 20%;
+  height: 20%;
+  margin: auto;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: black double 3px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+nav img {
+  width: 10%;
+  margin: auto;
+  border: 3px white double;
+  border-radius: 25%;
+  filter: grayscale(50%);
+}
+
+@media screen and (max-width: 1800px) {
+  nav {
+    color: white;
+    background-color: black;
+    border: white double 3px;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav {
+    color: black;
+    background-color: white;
+    border: black double 3px;
+  }
+  nav a {
+    color: white;
+    background-color: black;
+    border: white double 3px;
+  }
+  main.name, .main2 div {
+    background-color: white;
+    color: black;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav {
+    color: white;
+    background-color: black;
+    border: white double 3px;
+  }
+  nav a {
+    color: black;
+    background-color: white;
+    border: black double 3px;
+  }
+  main div, .main2 div {
+    background-color: black;
+    color: white;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav {
+    color: black;
+    background-color: white;
+    border: black double 3px;
+  }
+  nav a {
+    color: white;
+    background-color: black;
+    border: white double 3px;
+  }
+  main div, .main2 div {
+    background-color: white;
+    color: black;
+  }
+}
+main {
+  padding: 10px;
+}
+main .name {
+  color: white;
+  background-color: black;
+  text-align: right;
+  font-family: fantasy;
+  margin-top: 0;
+  font-size: x-large;
+  padding: 10px;
+}
+main img {
+  width: 100%;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: white;
+  background-color: black;
+}
+.main2 img {
+  width: 250px;
+  height: 250px;
+}
+.main2 div.manga {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: white 2px double;
+}/*# sourceMappingURL=intermediate exercise.css.map */

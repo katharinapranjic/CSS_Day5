@@ -1,0 +1,59 @@
+@media screen and (max-width: 1800px){
+    nav {
+        color: white;
+        background-color: black;
+        border: white double 3px;
+        
+    }
+}
+@media screen and(max-width: 900px){
+    nav {
+        color: black;
+        background-color: white;
+        border: black double 3px;
+        a{
+            color: white;
+            background-color: black;
+            border: white double 3px;
+        }
+
+
+    }
+    main.name, .main2 div{
+        background-color: white;
+        color: black;
+    }
+}
+@media screen and(max-width: 600px){
+    nav {
+        color: white;
+        background-color: black;
+        border: white double 3px;
+        a {color: black;
+        background-color: white;
+        border: black double 3px;
+    }}
+    main div, .main2 div{
+        background-color: black;
+        color: white;
+    }
+    
+
+}
+@media screen and(max-width: 400px){
+    nav {
+        color: black;
+        background-color: white;
+        border: black double 3px;
+        a{
+            color: white;
+            background-color: black;
+            border: white double 3px;
+        }
+
+    }
+    main div, .main2 div{
+        background-color: white;
+        color: black;
+    }
+}
