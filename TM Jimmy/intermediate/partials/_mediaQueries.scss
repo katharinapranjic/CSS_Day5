@@ -33,13 +33,21 @@
         background-color: white;
         border: black double 3px;
     }}
-    main div, .main2 div{
+
+  
+   .main2 .manga{
         background-color: black;
         color: white;
     }
-    
+   
 
-}
+    }
+    main {
+        font-size: 50%;
+  }
+
+
+
 @media screen and(max-width: 400px){
     nav {
         color: black;
@@ -47,14 +55,19 @@
         border: black double 3px;
         font-size: 10px;
         a{
+            
             color: white;
             background-color: black;
             border: white double 3px;
         }
 
     }
-    main div, .main2 div{
+    .main2 div{
         background-color: white;
         color: black;
+    }
+    main{
+        font-size: 50%;
+       
     }
 }
