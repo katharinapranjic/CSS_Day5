@@ -1,0 +1,86 @@
+nav {
+  background-color: black;
+  height: 75px;
+  border: double gold 5px;
+  border-radius: 15px;
+  display: flex;
+  margin: auto;
+  width: 800px;
+  padding: 25px;
+  transition: background 1s ease;
+}
+nav:hover {
+  background-color: gold;
+  border: black double 5px;
+}
+nav a {
+  margin: auto;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  color: gold;
+  border: double gold 5px;
+  border-radius: 50% 50%;
+  padding: 10px;
+  box-shadow: gold 6px 4px 2px 1px;
+  opacity: 70%;
+  transition: all 1s linear;
+}
+nav a:hover {
+  margin: auto;
+  font-size: 35px;
+  color: black;
+  border: double black 5px;
+  background-color: gold;
+  box-shadow: black 6px 4px;
+  opacity: 100%;
+}
+nav img {
+  width: 70px;
+  border: 5px gold double;
+  border-radius: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  transition: all ease 1s;
+}
+nav img:hover {
+  transform: scale(1.5);
+  border: 5px black double;
+}
+nav nav {
+  background-color: black;
+  height: 75px;
+  border: double gold 5px;
+  border-radius: 15px;
+  display: flex;
+  margin: auto;
+  width: 800px;
+  padding: 25px;
+  transition: background 1s ease;
+}
+nav nav :hover {
+  background-color: gold;
+  border: black double 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    background-color: black;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav {
+    background-color: green;
+  }
+}/*# sourceMappingURL=scssexercise1.css.map */
