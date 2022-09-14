@@ -30,6 +30,7 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     gap: 15px;
     padding: 15px;
     color: white;
@@ -39,7 +40,7 @@ h1{
     font-weight: bold;
 
     img{
-        width: 16rem;
+        width: 18rem;
         height: 16rem;
         border-radius: 25px;
         filter: grayscale(50%)
